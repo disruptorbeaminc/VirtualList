@@ -1,0 +1,16 @@
+{
+  "name": "com.disruptorbeam.virtuallist",
+  "version": "1.0.0",
+  "displayName": "Virtual List",
+  "description": "An efficient virtual list view for uGUI UI",
+  "author": {
+    "name": "Zach Kamsler (Disruptor Beam)"
+  },
+ "samples": [
+   {
+     "displayName": "Basic Sample",
+     "description": "A bare-bones sample of a couple of basic sources",
+     "path": "Samples~/Sample1"
+   }
+ ]
+}
