@@ -1,0 +1,12 @@
+{
+    "name": "VirtualList.Editor",
+    "references": [
+        "VirtualList"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
