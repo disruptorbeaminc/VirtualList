@@ -10,7 +10,7 @@ only instantiating enough elements to show what is on screen at a given time.
 * `VirtualGridList` => grid or vertical/horizontal list with fixed sized
   elements (probably fine for most use-cases)
 * `VirtualVerticalList` => vertical list that fits width of elements to parent
-* `VirtualHorizontalList` => horizantal list that fits height of elements to
+* `VirtualHorizontalList` => horizontal list that fits height of elements to
   parent
 
 ### In the scene
@@ -37,6 +37,12 @@ multiple different prefabs for list elements.
 * Add `AbstractVirtualList` variable in panel (and hook it up)
 * Call `SetSource` to make it show the source
 * Call Clear() on the list in the panel’s OnExit
+
+### Misc
+* You can use the `SetSourceAndCenterOn` method to set the source and center on
+  a specific index in a single step (when desired). If done separately, it would
+  populate views for the old scroll position, and then potentially throw them
+  away.
 
 ## Installation
 You can copy the files, or add this repo as a dependency in the Unity package
